@@ -1,0 +1,11 @@
+{
+  "name": "test-pr-advisor-2",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para PullRequestAdvisor",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo 'No tests yet' && exit 0",
+    "build": "echo 'Build OK' && exit 0"
+  }
+}
