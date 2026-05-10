@@ -1,0 +1,19 @@
+// Advanced SCSS
+$breakpoints: (sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+
+@mixin respond-to($breakpoint) {
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+.element-0 {
+  @include respond-to(md) {
+    padding: 0px;
+  }
+}
+.element-1 {
+  @include respond-to(md) {
+    padding: 1px;
+  }
+}
