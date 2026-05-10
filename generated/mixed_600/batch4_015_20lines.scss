@@ -1,0 +1,20 @@
+// Batch 4 SCSS
+$radius: 8px;
+$space: 6px;
+
+@mixin ring($c) {
+  box-shadow: 0 0 0 2px $c;
+}
+
+.panel-0 {
+  border-radius: $radius;
+  margin: $space;
+  @include ring(#22c55e);
+}
+
+.panel-1 {
+  border-radius: $radius;
+  margin: $space;
+  @include ring(#22c55e);
+}
+

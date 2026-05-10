@@ -1,0 +1,9 @@
+/* Batch 4 CSS */
+:root { --accent: #0ea5e9; --muted: #334155; }
+
+.card-0 {
+  border: 1px solid var(--muted);
+  color: var(--accent);
+  padding: 0px;
+}
+
