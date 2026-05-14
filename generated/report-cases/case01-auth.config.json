@@ -1,0 +1,11 @@
+{
+  "name": "case01-auth",
+  "label": "Auth flow",
+  "relatedFiles": [
+    "case01-auth.ts",
+    "case01-auth.test.ts",
+    "case01-auth.spec.ts"
+  ],
+  "generated": true,
+  "reportCase": true
+}
