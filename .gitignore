@@ -1,1 +1,3 @@
 node_modules/
+
+.pull-request-split-advisor-bcp-cli/

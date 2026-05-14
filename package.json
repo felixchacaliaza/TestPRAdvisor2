@@ -7,5 +7,9 @@
     "start": "node src/index.js",
     "test": "echo 'No tests yet' && exit 0",
     "build": "echo 'Build OK' && exit 0"
+  },
+    "devDependencies": {
+    "pull-request-split-advisor-bcp-cli": "file:../pull-request-split-advisor-bcp-cli"
   }
+
 }
